@@ -1,0 +1,204 @@
+.query {
+	width: 800px;
+	margin: 0 auto;
+}
+.query .question {
+	margin-bottom: 100px;
+	margin-top: 32px;
+}
+.question .title {
+	font-size: 32px;
+	font-weight: 700;
+	font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.question .authorData {
+	width: 100%;
+	height: 38px;
+	margin-top: 22px;
+	overflow: hidden;
+}
+.question .authorData .avator {
+	float: left;
+	width: 38px;
+	height: 38px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.question .authorData .avator img {
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.question .authorData .authorName {
+	float: left;
+	width: 762px;
+	line-height: 38px;
+	color: #808080;
+}
+.question .authorData .authorName span {
+	font-size: 0.875em;
+}
+.question .authorData .authorName span.name {
+	margin-left: 12px;
+}
+.question .authorData .authorName span.time::before {
+	margin: 0 6px;
+	content: '\B7';
+}
+.question .des {
+	padding-left: 1.2em;
+	border-left: 4px solid #e2e3e4;
+	color: #333;
+	margin-top: 50px;
+	line-height: 1.5em;
+}
+.subComment {
+	margin-bottom: 60px;
+}
+.subComment .blockTitle {
+	position: relative;
+	display: block;
+	margin-bottom: 32px;
+	line-height: 22px;
+}
+.subComment .blockTitle .blockTitle-title {
+	position: relative;
+	display: inline;
+	padding-right: 16px;
+	font-weight: 700;
+	background: #fff;
+	z-index: 1;
+}
+.subComment .blockTitle .blockTitle-line {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	height: 1px;
+	color: #f0f0f0;
+	background: currentColor;
+}
+.subComment .wrpper {
+	width: 100%;
+	overflow: hidden;
+}
+.subComment .wrpper .avator {
+	width: 54px;
+	height: 54px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 26px;
+	float: left;
+}
+.subComment .wrpper .avator img {
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.subComment .wrpper .inputWrapper {
+	width: 720px;
+	float: left;
+}
+.subComment .wrpper .inputWrapper .commentContent {
+	min-height: 50px;
+	max-height: 300px;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 4px 12px;
+	word-wrap: break-word;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border: 1px solid #e7eaf1;
+	outline: none;
+	-webkit-transition: background 200ms, border 200ms;
+	transition: background 200ms, border 200ms;
+	margin-bottom: 24px;
+}
+.subComment .wrpper .inputWrapper .commentContent:focus {
+	border: 1px solid rgba(0, 128, 255, 0.5);
+}
+.subComment .wrpper .inputWrapper .clear {
+	width: 80px;
+	height: 34px;
+	margin-left: 16px;
+	float: right;
+	color: #808080;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	font-size: 0.875em;
+	cursor: pointer;
+}
+.subComment .wrpper .inputWrapper .submit{
+	width: 80px;
+	height: 34px;
+	margin-left: 16px;
+	border: 1px solid #0080ff;
+	color: #0080ff;
+	background-color: transparent;
+	float: right;
+	outline: none;
+	border-radius: 6px;
+	font-size: 0.875em;
+	cursor: pointer;
+}
+.subComment .wrpper .inputWrapper .submit:hover{
+	background-color: rgba(13, 121, 209, .06)	
+}
+.comment{
+	margin-bottom: 40px;
+}
+.comment .row{
+	overflow: hidden;
+	margin: 0;
+	margin-bottom: 32px;
+}
+.comment .avator {
+	width: 54px;
+	height: 54px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 26px;
+	float: left;
+}
+.comment .avator img {
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.comment .wrapper{
+	float: left;
+	width: 720px;
+}
+.comment .wrapper .name{
+	color: #333;
+    font-weight: 700;
+    line-height: 24px;
+	margin: 0;
+	margin-bottom: 8px;
+}
+.comment .wrapper .detail{
+	min-height: 22px;
+    margin: 8px 0;
+    font-size: 15px;
+    line-height: 24px;
+    word-break: break-word;
+}
+.comment .wrapper .time{
+	color: #cccccc;
+    font-size: 12px;
+    line-height: 30px;
+    float: right;
+}
